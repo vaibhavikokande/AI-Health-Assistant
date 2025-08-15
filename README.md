@@ -1,105 +1,63 @@
+# Medical-Chatbot-Fine-Tuning-Open-source-model-
+# 🩺 **AI Medical Chatbot**  
+_Your Virtual Health Assistant – Powered by AI & Fine-Tuned on Medical Knowledge_
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![HuggingFace](https://img.shields.io/badge/Model-Phi--1.5-yellow)
+![Gradio](https://img.shields.io/badge/UI-Gradio-orange)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
 ---
 
-````markdown
-# 🤖 AI Health Assistant 🩺  
+## **📌 Overview**
+This project is an **AI-powered Medical Chatbot** designed to answer health-related questions accurately and interactively.  
+Built using the **Phi-1.5 model** (fine-tuned for medical queries) and an elegant **Gradio interface**, it delivers **doctor-like responses in real time**.  
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat&logo=python)  
-![Gradio](https://img.shields.io/badge/Gradio-UI-orange?style=flat&logo=gradio)  
-![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow?style=flat&logo=huggingface)  
-![License](https://img.shields.io/badge/License-MIT-green)  
-
-> An **interactive AI-powered chatbot** that answers general health-related questions in a doctor-like conversational style.  
-> Built using **Gradio** for the interface and **HuggingFace Transformers** for natural language processing.  
+> ✅ Ideal for health Q&A, medical education, and AI-based health assistants.
 
 ---
 
-## ✨ Features
-- 🩺 **Health Q&A Bot** – Ask general health-related questions.
-- ⏳ **Typing Simulation** – Realistic word-by-word response streaming.
-- 🎨 **Custom UI Theme** – Smooth design with `Fira Sans` font & soft blue accents.
-- 🧠 **Transformer-based Model** – Powered by `phi1.5` from HuggingFace.
-- ⚡ **Fast Deployment** – Run locally or deploy to HuggingFace Spaces in minutes.
+## **✨ Features**
+✔️ **Fine-tuned on medical domain** for accurate responses  
+✔️ **Interactive chatbot interface** built with Gradio  
+✔️ **Real-time streaming with typing effect** for a natural feel  
+✔️ **Custom theme with modern UI design**  
+✔️ **Lightweight & easy to deploy**  
 
 ---
 
-## 🛠 Tech Stack
+## **🛠 Tech Stack**
 - **Language:** Python 3.9+  
+- **Model:** [Phi-1.5](https://huggingface.co/microsoft/phi-1_5)  
 - **Frameworks & Libraries:**  
-  - [Gradio](https://gradio.app) – Chat UI  
-  - [Transformers](https://huggingface.co/transformers) – NLP model  
-  - [PyTorch](https://pytorch.org) – Deep learning backend  
+  - Transformers (Hugging Face)  
+  - Gradio  
+  - PyTorch  
 
 ---
 
-## 🚀 Installation & Setup  
+## **📂 Project Structure**
+📦 AI-Medical-Chatbot
+┣ 📄 chatbotAppFinal.py # Main application
+┣ 📄 requirements.txt # Dependencies
+┗ 📄 README.md # Project Documentation
 
-### 1️⃣ Clone the Repository
+---
+
+## **⚡ How It Works**
+1. Loads **Phi-1.5 model** & tokenizer from Hugging Face.  
+2. Accepts user’s medical question as input.  
+3. Generates an answer using **causal language modeling**.  
+4. Streams the response word-by-word with a typing effect.  
+
+---
+
+## **🚀 Getting Started**
+
+### ✅ Clone the repository:
 ```bash
-git clone https://github.com/your-username/ai-health-assistant.git
-cd ai-health-assistant
-````
+git clone https://github.com/your-username/AI-Medical-Chatbot.git
+cd AI-Medical-Chatbot
+📊 Performance
 
-### 2️⃣ Create a Virtual Environment (Optional but Recommended)
-
-```bash
-python -m venv venv
-source venv/bin/activate    # Mac/Linux
-venv\Scripts\activate       # Windows
-```
-
-### 3️⃣ Install Dependencies
-
-```bash
-pip install gradio transformers torch
-```
-
-### 4️⃣ Run the Application
-
-```bash
-python chatbotAppFinal.py
-```
-
-💡 Open the provided local URL (default: `http://127.0.0.1:7860`) in your browser.
-
----
-
-## 💬 Usage
-
-1. Open the app in your browser.
-2. Type a health-related question in the input box.
-3. Watch the bot respond word-by-word with a doctor-like tone.
-
----
-
-## 📸 Screenshot
-
-*(Add your interface screenshot here)*
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## ⚠ Disclaimer
-
-> This chatbot is for **informational and educational purposes only**. It is **not a substitute for professional medical advice**. Always seek the guidance of a qualified healthcare provider.
-
----
-
-## 💡 Future Ideas
-
-* 🌐 Multi-language support
-* 📊 Symptom checker integration
-* 🧠 Model fine-tuning for medical datasets
-
-```
-
----
-
-If you want, I can **also make a visually enhanced GitHub profile README** for you with **skill badges, AI highlights, and clickable links** so your profile looks premium.  
-Do you want me to prepare that?
-```

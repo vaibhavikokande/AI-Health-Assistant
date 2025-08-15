@@ -1,4 +1,3 @@
-Here’s a **fancy and professional README.md** for your `AI Health Assistant` project based on `chatbotAppFinal.py`:
 
 ---
 
